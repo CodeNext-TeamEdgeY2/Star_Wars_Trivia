@@ -5,14 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:fitsSystemWindows="true"
     android:background="@drawable/space_bg"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/personImageView"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="24dp"
+                android:src="@drawable/ic_account_circle_black_24dp" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="250dp"
+                android:layout_height="62dp"
+                android:layout_margin="24dp"
+                android:text="Name"
+                android:textColor="@color/cardBackgroundColor"
+                android:textSize="24sp" />
+        </LinearLayout>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view_people"
@@ -24,11 +47,10 @@
         android:onClick="openChar"
         app:cardBackgroundColor="@color/cardBackgroundColor"
         android:layout_marginBottom="20dp"
-        android:layout_marginTop="90dp">
+        >
 
         <TextView
             android:id="@+id/people"
-
             android:text="   Characters"
             android:textStyle="bold"
             android:textAllCaps="true"
@@ -91,7 +113,6 @@
 
         <TextView
             android:id="@+id/species"
-
             android:text="   species"
             android:textStyle="bold"
             android:textAllCaps="true"
@@ -193,5 +214,7 @@
             android:layout_height="200dp"
             android:src="@drawable/films"/>
     </androidx.cardview.widget.CardView>
+
     </LinearLayout>
+
 </ScrollView>

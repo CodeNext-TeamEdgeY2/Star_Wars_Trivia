@@ -4,4 +4,8 @@
     <color name="colorPrimaryDark">#1A1A1A</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="softGreen">#71BE7C</color>
+    <color name="softRed">#ff6961</color>
+    <color name="softPurple">#b879ff</color>
+    <color name="softBlue">#57C0F9</color>
 </resources>

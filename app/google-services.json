@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "826742443376",
+    "firebase_url": "https://star-wars-trivia-899ae.firebaseio.com",
+    "project_id": "star-wars-trivia-899ae",
+    "storage_bucket": "star-wars-trivia-899ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826742443376:android:ff2c4ebfe8d822e64653b5",
+        "android_client_info": {
+          "package_name": "com.project.starwarsgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826742443376-2d32al18cs42sogvds3q3v6d3t2l5ai4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTN77c5ZOUb-bRqWIbkXt49p2uNWQ37aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826742443376-2d32al18cs42sogvds3q3v6d3t2l5ai4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
