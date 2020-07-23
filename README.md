@@ -1,2 +1,2 @@
 # Star_Wars_Trivia
-Star Wars Trivia App using swap api and firebase.
+Star Wars Trivia App using swapi api and firebase.
